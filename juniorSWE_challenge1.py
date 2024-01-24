@@ -61,7 +61,7 @@ def main():
 
         choice = input("Would you like to combine and sort two more arrays? (Yes/No) ")
         print()
-        if choice == ("No" or "no"):
+        if choice == ("No"):
             condition = False
 
 
