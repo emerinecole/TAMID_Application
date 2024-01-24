@@ -22,7 +22,7 @@ def calculate(num1, num2, symbol):
     elif symbol == "%":
         value = num1%num2
     else:
-        return "\nPlease enter one of these symbols (+-*/%) for function.\n"
+        return "\nPlease enter one of these symbols (+-*/%) for function."
 
     return "\nYour result was: "+str(value)
 
